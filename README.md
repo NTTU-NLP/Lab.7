@@ -1,7 +1,7 @@
-# ¸ê®ÆÀÉ»¡©ú
+# è³‡æ–™æª”èªªæ˜
 
-¸Ñ¶} Dataset\ ¥Ø¿ı¤ºªº ReachOut.zip À£ÁYÀÉ¡C
-¤º§t 1894 ­ÓÀÉ®×¡C¨C­ÓÀÉ®×¨â¨â¤@²Õ¡A¥H½s¸¹ 138717 ¬°¨Ò¡A¨ä¹ïÀ³ªº 138717.txt ÀÉ®×¤º§t¦p¤U¸ê°T¡G
+è§£é–‹ Dataset\ ç›®éŒ„å…§çš„ ReachOut.zip å£“ç¸®æª”ã€‚
+å…§å« 1894 å€‹æª”æ¡ˆã€‚æ¯å€‹æª”æ¡ˆå…©å…©ä¸€çµ„ï¼Œä»¥ç·¨è™Ÿ 138717 ç‚ºä¾‹ï¼Œå…¶å°æ‡‰çš„ 138717.txt æª”æ¡ˆå…§å«å¦‚ä¸‹è³‡è¨Šï¼š
 
 ```
 red	followupWorse
@@ -21,36 +21,36 @@ Body:
 The TV launch was a few weeks ago and it was awesome. One of the rare times in my life I was actually happy and feeling worthwhile....
 ```
 
-* ²Ä¤@¦æªº red ¥Nªí³o½g¤å³¹À³¸Ó­n³Q¤ÀÃş¬° red¡C
-* Author: ¥Nªíµo¤åªº§@ªÌ ID
-* LastEditAuthor: ¥Nªí¤W¦¸­×§ïªº§@ªÌ ID
-* Subject: ¨ä«áªº¤å¦r±Ô­z¬°µo¤åªº¥D¦®
-* Body: ¨ä«áªº¤å¦r±Ô­z¬°µo¤åªº¤º®e¡C
+* ç¬¬ä¸€è¡Œçš„ red ä»£è¡¨é€™ç¯‡æ–‡ç« æ‡‰è©²è¦è¢«åˆ†é¡ç‚º redã€‚
+* Author: ä»£è¡¨ç™¼æ–‡çš„ä½œè€… ID
+* LastEditAuthor: ä»£è¡¨ä¸Šæ¬¡ä¿®æ”¹çš„ä½œè€… ID
+* Subject: å…¶å¾Œçš„æ–‡å­—æ•˜è¿°ç‚ºç™¼æ–‡çš„ä¸»æ—¨
+* Body: å…¶å¾Œçš„æ–‡å­—æ•˜è¿°ç‚ºç™¼æ–‡çš„å…§å®¹ã€‚
 
-# Weka ARFF ÀÉ¿é¥X
+# Weka ARFF æª”è¼¸å‡º
 
-¼¶¼g¤@µ{¦¡¯à²£¥Í Weka ªº ARFF ÀÉ¡A¨Ã¦Û¦æ©w¸q»P¿é¥X¦p¤Uªº ARFF ¸ê®Æ®æ¦¡¡G
+æ’°å¯«ä¸€ç¨‹å¼èƒ½ç”¢ç”Ÿ Weka çš„ ARFF æª”ï¼Œä¸¦è‡ªè¡Œå®šç¾©èˆ‡è¼¸å‡ºå¦‚ä¸‹çš„ ARFF è³‡æ–™æ ¼å¼ï¼š
 
 ```
 @relation YOUR RELATION NAME
-@attribute Label {green, ¡K}
+@attribute Label {green, â€¦}
 @attribute token1 numeric
 @attribute token2 numeric
 @attribute token3 numeric
-¡K
+â€¦
 @data
-{0 green, 1 1, 2 1, ¡K}
-{0 red, 5 1, 9 1, ¡K}
-¡K
+{0 green, 1 1, 2 1, â€¦}
+{0 red, 5 1, 9 1, â€¦}
+â€¦
 ```
 
-¤U­±¬O¹ê»Úªº½d¨Ò¡G
+ä¸‹é¢æ˜¯å¯¦éš›çš„ç¯„ä¾‹ï¼š
 
 ```
 % Input
 % Re : TwittRO It 's not fair @Sophie-RO
 %
-@relation ½d¨Ò
+@relation ç¯„ä¾‹
 
 @attribute Label {green, xxxx}
 @attribute Re numeric
@@ -63,10 +63,20 @@ The TV launch was a few weeks ago and it was awesome. One of the rare times in m
 @attribute @Sophie-RO numeric
 
 @data
-{0 green, 1 1, 2 1, ¡K}
+{0 green, 1 1, 2 1, â€¦}
 ...
 ```
 
-# ¨Ï¥Î Weka ¶i¦æ¹êÅç
+# ä½¿ç”¨ Weka é€²è¡Œå¯¦é©—
 
-§Q¥Î Weka ªº Explorer ·f°t¨Ï¥Î Decision Tree, SMO, SimpleLogistic ºtºâªk¶i¦æ 10 fold Cross-validation ¨Ó´ú¸Õ§A¶]ªº¼Ò«¬ªº¥¿½T²v¡C
+åˆ©ç”¨ Weka çš„ Explorer æ­é…ä½¿ç”¨ Decision Tree, SMO, SimpleLogistic æ¼”ç®—æ³•é€²è¡Œ 10 fold Cross-validation ä¾†æ¸¬è©¦ä½ è·‘çš„æ¨¡å‹çš„æ­£ç¢ºç‡ã€‚
+
+# è¨ˆåˆ†è¡¨
+
+|è©•åˆ†é …ç›®|5|4|3|2|1|
+|-|-|-|-|-|-|
+|ç¨‹å¼çµæœæ­£ç¢ºæ€§||||||
+|ç¨‹å¼ç¢¼å®Œæ•´æ€§||||||
+|æº–æ™‚ç¹³äº¤||||||
+
+# åˆ†æ•¸
